@@ -1,4 +1,4 @@
-var KT=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports);var Mz=KT((Yt,qt)=>{function YT(t,e){for(var n=0;n<e.length;n++){const r=e[n];if(typeof r!="string"&&!Array.isArray(r)){for(const i in r)if(i!=="default"&&!(i in t)){const o=Object.getOwnPropertyDescriptor(r,i);o&&Object.defineProperty(t,i,o.get?o:{enumerable:!0,get:()=>r[i]})}}}return Object.freeze(Object.defineProperty(t,Symbol.toStringTag,{value:"Module"}))}(function(){const e=document.createElement("link").relList;if(e&&e.supports&&e.supports("modulepreload"))return;for(const i of document.querySelectorAll('link[rel="modulepreload"]'))r(i);new MutationObserver(i=>{for(const o of i)if(o.type==="childList")for(const s of o.addedNodes)s.tagName==="LINK"&&s.rel==="modulepreload"&&r(s)}).observe(document,{childList:!0,subtree:!0});function n(i){const o={};return i.integrity&&(o.integrity=i.integrity),i.referrerPolicy&&(o.referrerPolicy=i.referrerPolicy),i.crossOrigin==="use-credentials"?o.credentials="include":i.crossOrigin==="anonymous"?o.credentials="omit":o.credentials="same-origin",o}function r(i){if(i.ep)return;i.ep=!0;const o=n(i);fetch(i.href,o)}})();function H0(t){return t&&t.__esModule&&Object.prototype.hasOwnProperty.call(t,"default")?t.default:t}var oa={},qT={get exports(){return oa},set exports(t){oa=t}},_c={},A={},QT={get exports(){return A},set exports(t){A=t}},Ee={};/**
+var KT=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports);var Lz=KT((Yt,qt)=>{function YT(t,e){for(var n=0;n<e.length;n++){const r=e[n];if(typeof r!="string"&&!Array.isArray(r)){for(const i in r)if(i!=="default"&&!(i in t)){const o=Object.getOwnPropertyDescriptor(r,i);o&&Object.defineProperty(t,i,o.get?o:{enumerable:!0,get:()=>r[i]})}}}return Object.freeze(Object.defineProperty(t,Symbol.toStringTag,{value:"Module"}))}(function(){const e=document.createElement("link").relList;if(e&&e.supports&&e.supports("modulepreload"))return;for(const i of document.querySelectorAll('link[rel="modulepreload"]'))r(i);new MutationObserver(i=>{for(const o of i)if(o.type==="childList")for(const s of o.addedNodes)s.tagName==="LINK"&&s.rel==="modulepreload"&&r(s)}).observe(document,{childList:!0,subtree:!0});function n(i){const o={};return i.integrity&&(o.integrity=i.integrity),i.referrerPolicy&&(o.referrerPolicy=i.referrerPolicy),i.crossOrigin==="use-credentials"?o.credentials="include":i.crossOrigin==="anonymous"?o.credentials="omit":o.credentials="same-origin",o}function r(i){if(i.ep)return;i.ep=!0;const o=n(i);fetch(i.href,o)}})();function H0(t){return t&&t.__esModule&&Object.prototype.hasOwnProperty.call(t,"default")?t.default:t}var oa={},qT={get exports(){return oa},set exports(t){oa=t}},_c={},A={},QT={get exports(){return A},set exports(t){A=t}},Ee={};/**
  * @license React
  * react.production.min.js
  *
@@ -3072,14 +3072,14 @@ FIREBASE: `))}restoreState_(){this.tryAuth(),this.tryAppCheck();for(const e of t
   &:hover {
     filter: brightness(1.1);
   }
-`,Rz=()=>{const{id:t,product:e,similar:n,band:r}=DR();return Pe(Ez,{children:[H(Sz,{src:"/product.png"}),Pe(Cz,{children:[Pe(Tz,{children:[H(xz,{children:e.title}),H(Iz,{children:e.subtitle})]}),H($f,{children:"Description"}),H(Uf,{children:e.description}),H($f,{children:"Saler"}),H(Uf,{children:"Grotesque Sounds Old School Metal Music Label"}),H($f,{children:"Price"}),Pe(Uf,{children:[e.price," ₽"]}),H(bz,{children:"Add to Cart"})]})]})},kz=()=>Pe(yx,{children:[H(gz,{}),H(FR,{}),H(_z,{}),H(fz,{})]}),Pz=fe.main``,Az=({children:t})=>{const e=is(r=>r.user),n=os();return A.useEffect(()=>{e.auth===!1&&n(rr("FormAuth"))},[e.auth]),e.auth?t:H(Pz,{})},Oz=GR([{path:"/",element:H(kz,{}),errorElement:H(qF,{}),children:[{path:"/",element:H(YF,{})},{path:"/person",element:H(Az,{children:H(ZF,{})})},{path:"/products/:id",element:H(Rz,{}),loader:wz}]}],{basename:"/metalcircle"}),Nz="/metalcircle/assets/ShadowsIntoLight-Regular-2d697208.ttf",Dz=$F`
+`,Rz=()=>{const{id:t,product:e,similar:n,band:r}=DR();return Pe(Ez,{children:[H(Sz,{src:"/product.png"}),Pe(Cz,{children:[Pe(Tz,{children:[H(xz,{children:e.title}),H(Iz,{children:e.subtitle})]}),H($f,{children:"Description"}),H(Uf,{children:e.description}),H($f,{children:"Saler"}),H(Uf,{children:"Grotesque Sounds Old School Metal Music Label"}),H($f,{children:"Price"}),Pe(Uf,{children:[e.price," ₽"]}),H(bz,{children:"Add to Cart"})]})]})},kz=()=>Pe(yx,{children:[H(gz,{}),H(FR,{}),H(_z,{}),H(fz,{})]}),Pz=fe.main``,Az=({children:t})=>{const e=is(r=>r.user),n=os();return A.useEffect(()=>{e.auth===!1&&n(rr("FormAuth"))},[e.auth]),e.auth?t:H(Pz,{})},Oz=GR([{path:"/",element:H(kz,{}),errorElement:H(qF,{}),children:[{path:"/",element:H(YF,{})},{path:"/person",element:H(Az,{children:H(ZF,{})})},{path:"/products/:id",element:H(Rz,{}),loader:wz}]}],{basename:"/metalcircle"}),Nz="/metalcircle/assets/ShadowsIntoLight-Regular-2d697208.ttf",Dz="/metalcircle/assets/bg-3d3f6948.jpg",Mz=$F`
   @font-face {
     font-family: 'Shadows Into Light';
     src: url(${Nz});
   }
   body {
     margin: 0;
-    background-image: url('/bg.jpg');
+    background-image: url(${Dz});
     background-position: top center;
     scrollbar-width: thin;
     scrollbar-color: #333 #222;
@@ -3096,4 +3096,4 @@ FIREBASE: `))}restoreState_(){this.tryAuth(),this.tryAppCheck();for(const e of t
       }
     }
   }
-`;zf.createRoot(document.getElementById("root")).render(H(we.StrictMode,{children:Pe(Hk,{store:Bn,children:[H(Dz,{}),H(LR,{router:Oz})]})}))});export default Mz();
+`;zf.createRoot(document.getElementById("root")).render(H(we.StrictMode,{children:Pe(Hk,{store:Bn,children:[H(Mz,{}),H(LR,{router:Oz})]})}))});export default Lz();
